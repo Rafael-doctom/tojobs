@@ -88,6 +88,7 @@ video {
 /* Adicione estilos globais ou personalizados abaixo deste comentário */
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 a,
@@ -97,8 +98,4 @@ ol {
     text-decoration: none;
     text-transform: none;
     list-style: none;
-}
-
-*{
-    font-size: 14px;
 }
