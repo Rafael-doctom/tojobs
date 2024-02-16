@@ -1,5 +1,4 @@
 /* reset.css */
-
 html,
 body,
 div,
@@ -100,4 +99,6 @@ ol {
     list-style: none;
 }
 
-/* Adicione mais estilos conforme necessário */
+*{
+    font-size: 14px;
+}
