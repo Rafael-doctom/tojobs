@@ -1,16 +1,126 @@
 .container{
-    background-color: gray;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #24242A;
 }
 
 .container h1{
+    font-size: 24px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 700;
+}
 
+.container h1 .txt-color{
+    color: #FB3F0B;
 }
 
 .container p{
-
+    font-size: 14px;
+    width: 98%;
+    margin: 0 auto;
+    font-weight: 400;
 }
 
 .container a{
+    background-color: #FB3F0B;
+    border: 0;
+    border-radius: 15px;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8rem 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
+.container a:hover{
+    background-color: #e23809ec;
+}
+
+@media (min-width:425px){
+
+    .container h1{
+        font-size: 30px;
+        width: 100%;
+    }
+   
+}
+
+@media (min-width:768px){
+
+    .container h1{
+        font-size: 48px;
+        width: 95%;
+    }
+   
+    .container p{
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .container a{
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1024px){
+
+    .container h1{
+        font-size: 56px;
+        width: 95%;
+    }
+   
+    .container p{
+        font-size: 26px;
+        width: 85%;
+    }
+
+    .container a{
+        font-size: 22px;
+        width: 40%;
+    }
+}
+
+@media (min-width:1200px){
+
+    .container h1{
+        font-size: 64px;
+        width: 95%;
+    }
+   
+    .container p{
+        font-size: 26px;
+        width: 75%;
+    }
+
+    .container a{
+        font-size: 24px;
+        width: 30%;
+    }
+}
+
+@media (min-width:1440px){
+
+    .container h1{
+        font-size: 74px;
+        width: 65%;
+    }
+   
+    .container p{
+        font-size: 26px;
+        width: 45%;
+    }
+
+    .container a{
+        font-size: 24px;
+        width: 20%;
+    }
 }
