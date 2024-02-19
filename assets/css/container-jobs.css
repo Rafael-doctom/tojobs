@@ -1,0 +1,66 @@
+.container-jobs {
+    text-align: left;
+    width: 90%;
+    margin: 2rem auto 0 auto;
+}
+
+.container-jobs h1 {
+    font-size: 35px;
+    width: 90%;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.txt-color {
+    color: #F05542;
+}
+
+/* card */
+.container-jobs .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.container-jobs .cards .card {
+    min-width: 288px;
+    max-width: 288px;
+
+    padding: 3rem 2rem;
+    cursor: pointer;
+    align-items: center;
+
+    border: 1px solid #F05542;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px rgba(22, 22, 22, 0.247);
+}
+
+.container-jobs .cards .card h2 {
+    color: #24242A;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.container-jobs .cards .card span {
+    color: #0e0f0f8a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-jobs .cards .card button {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: #F05542;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 0;
+    margin: 1rem 0;
+}
+
+.container-jobs .cards .card button a {
+    color: white;
+}
