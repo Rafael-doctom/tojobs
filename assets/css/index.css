@@ -1,16 +1,16 @@
-header{
+header {
     text-align: left;
     width: 90%;
     margin: 2rem auto 0 auto;
 }
 
-header span a{
+header span a {
     color: #F05542;
     font-weight: bold;
     font-size: 36px;
 }
 
-.container{
+.container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -20,25 +20,25 @@ header span a{
     margin: 7rem 0;
 }
 
-.container h1{
+.container h1 {
     font-size: 24px;
     width: 90%;
     margin: 0 auto;
     font-weight: 700;
 }
 
-.container h1 .txt-color{
+.container h1 .txt-color {
     color: #FB3F0B;
 }
 
-.container p{
+.container p {
     font-size: 14px;
     width: 98%;
     margin: 0 auto;
     font-weight: 400;
 }
 
-.container a{
+.container a {
     background-color: #FB3F0B;
     border: 0;
     border-radius: 15px;
@@ -53,85 +53,242 @@ header span a{
     cursor: pointer;
 }
 
-.container a:hover{
+.container a:hover {
     background-color: #e23809ec;
 }
 
-@media (min-width:425px){
+/* container-filtered */
+.container-filtered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    color: #24242A;
+}
 
-    .container h1{
+.min {
+    min-width: 250px;
+}
+
+.search-job input,
+.to-modality select,
+.to-from select {
+    width: 100%;
+    padding: 0px 10px 0px 40px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    color: #24242A;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.267);
+}
+
+.search-job input {
+    background-image: url('../images/lupa.png');
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    background-size: 25px 25px;
+}
+
+.to-modality select {
+    background-image: url('../images/sinal-de-seta-para-baixo-para-navegar.png');
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    background-size: 25px 25px;
+}
+
+.to-from select {
+    background-image: url('../images/filtro.png');
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    background-size: 25px 25px;
+}
+
+
+.search-job input::placeholder {
+    color: #24242A;
+}
+
+.btn-job button {
+    background-color: #F05542;
+    color: white;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 250px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+
+
+}
+
+/* Adicione mais estilos conforme necessário */
+
+/* 
+.container-filtered .min {
+    flex: 1;
+    width: 25%;
+    margin: 0 0.25rem;
+
+    box-shadow: 1px 5px 10px 2px black;
+    background-color: #F6F3F3;
+    padding: 1rem 1rem;
+    color: #24242A;
+    min-width: 25%;
+}
+
+.container-filtered .search-job,
+.container-filtered .to-modality select,
+.container-filtered .to-from select,
+.container-filtered .btn-job
+{
+    width: 100%;
+}
+
+ .container-filtered .search-job {
+    background-color: #F6F3F3;
+
+    border-radius: 10px;
+    color: #24242A;
+
+    background-color: red;
+}
+
+.container-filtered .search-job input {
+    background-color: #F6F3F3;
+
+    
+    padding: 1rem 1rem;
+    color: #24242A;
+    min-width: 100%;
+}
+
+.container-filtered .search-job input::placeholder,
+.container-filtered .search-job input:focus {
+    color: #24242A;
+    outline: 0;
+}
+
+.container-filtered .to-modality select {
+    background-color: #F6F3F3;
+    
+    padding: 1rem 1rem;
+    color: #24242A;
+    min-width: 100%;
+
+}
+
+.container-filtered .to-from select {
+    background-color: #F6F3F3;
+    
+    padding: 1rem 1rem;
+    color: #24242A;
+    min-width: 100%;
+
+}
+
+.container-filtered .search-job {
+    min-width: 25%;
+    cursor: pointer;
+}
+
+.container-filtered .search-job button {
+    background-color: #F05542;
+    
+    padding: 1rem 1rem;
+    color: #FFFFFF;
+    min-width: 100%;
+}  */
+
+
+
+
+
+
+
+@media (min-width:425px) {
+
+    .container h1 {
         font-size: 30px;
         width: 100%;
     }
-   
+
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
 
-    .container h1{
+    .container h1 {
         font-size: 48px;
         width: 95%;
     }
-   
-    .container p{
+
+    .container p {
         font-size: 22px;
         width: 90%;
     }
 
-    .container a{
+    .container a {
         font-size: 22px;
     }
 }
 
-@media (min-width:1024px){
+@media (min-width:1024px) {
 
-    .container h1{
+    .container h1 {
         font-size: 56px;
         width: 95%;
     }
-   
-    .container p{
+
+    .container p {
         font-size: 26px;
         width: 85%;
     }
 
-    .container a{
+    .container a {
         font-size: 22px;
         width: 40%;
     }
 }
 
-@media (min-width:1200px){
+@media (min-width:1200px) {
 
-    .container h1{
+    .container h1 {
         font-size: 64px;
         width: 95%;
     }
-   
-    .container p{
+
+    .container p {
         font-size: 26px;
         width: 75%;
     }
 
-    .container a{
+    .container a {
         font-size: 24px;
         width: 30%;
     }
 }
 
-@media (min-width:1440px){
+@media (min-width:1440px) {
 
-    .container h1{
+    .container h1 {
         font-size: 74px;
         width: 65%;
     }
-   
-    .container p{
+
+    .container p {
         font-size: 26px;
         width: 45%;
     }
 
-    .container a{
+    .container a {
         font-size: 24px;
         width: 20%;
     }
