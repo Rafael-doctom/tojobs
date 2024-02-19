@@ -1,14 +1,17 @@
 .container-jobs {
     text-align: left;
     width: 90%;
-    margin: 2rem auto 0 auto;
+    margin: 0rem auto 0 auto;
+
+    padding: 0 0 3rem 0;
 }
 
 .container-jobs h1 {
     font-size: 35px;
     width: 90%;
     font-weight: 600;
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
+
 }
 
 .txt-color {
@@ -16,39 +19,54 @@
 }
 
 /* card */
-.container-jobs .cards {
+.container-jobs .vagasContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.container-jobs .cards .card {
-    min-width: 288px;
-    max-width: 288px;
+.container-jobs .vagasContainer .card {
+    min-width: 250px;
+    max-width: 250px;
 
-    padding: 3rem 2rem;
-    cursor: pointer;
+    padding: 1.66rem 2rem;
     align-items: center;
 
-    border: 1px solid #F05542;
+    border: 1px solid #f0564283;
     border-radius: 10px;
     box-shadow: 1px 1px 15px 1px rgba(22, 22, 22, 0.247);
+
+    position: relative;
+    z-index: 0;
 }
 
-.container-jobs .cards .card h2 {
+.container-jobs .vagasContainer .card .title {
     color: #24242A;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     margin: 1rem 0;
+
 }
 
-.container-jobs .cards .card span {
+.container-jobs .vagasContainer .card span {
     color: #0e0f0f8a;
     font-size: 16px;
     font-weight: 500;
+
+    background-color: rgb(19, 219, 35);
+
+    text-align: right;
+    top: -10px;
+    right: 25px;
+    position: absolute;
+
+    z-index: 999999999999;
+    padding: 0.25rem 0.44rem;
+    border-radius: 5px;
+    color: white;
 }
 
-.container-jobs .cards .card button {
+.container-jobs .vagasContainer .card button {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -61,6 +79,6 @@
     margin: 1rem 0;
 }
 
-.container-jobs .cards .card button a {
+.container-jobs .vagasContainer .card button a {
     color: white;
 }
