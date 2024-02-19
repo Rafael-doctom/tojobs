@@ -1,11 +1,23 @@
+header{
+    text-align: left;
+    width: 90%;
+    margin: 2rem auto 0 auto;
+}
+
+header span a{
+    color: #F05542;
+    font-weight: bold;
+    font-size: 36px;
+}
+
 .container{
     text-align: center;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
     color: #24242A;
+    margin: 7rem 0;
 }
 
 .container h1{
