@@ -34,21 +34,40 @@
 
     border: 1px solid #f0564283;
     border-radius: 10px;
-    box-shadow: 1px 1px 15px 1px rgba(22, 22, 22, 0.247);
+    box-shadow: 1px 1px 15px 1px rgba(22, 22, 22, 0.089);
 
     position: relative;
     z-index: 0;
+
 }
+
+.cards{
+    display: flex;
+    gap: 0px 10px;
+}
+
 
 .container-jobs .vagasContainer .card .title {
     color: #24242A;
     font-size: 22px;
     font-weight: bold;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 
 }
 
-.container-jobs .vagasContainer .card span {
+.format .details{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0 10px ;
+}
+
+
+.date-job{
+    /* background-color: red; */
+}
+
+
+.container-jobs .vagasContainer .card .modalidade {
     color: #0e0f0f8a;
     font-size: 16px;
     font-weight: 500;
@@ -79,6 +98,28 @@
     margin: 1rem 0;
 }
 
+
+
 .container-jobs .vagasContainer .card button a {
     color: white;
+}
+
+
+.click{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+.container-jobs .vagasContainer .card .click .click-button {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: #F05542;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px;
+    min-width: 100%;
+    text-align: center;
 }

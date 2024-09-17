@@ -1,7 +1,7 @@
 header {
     text-align: left;
     width: 90%;
-    margin: 2rem auto 0 auto;
+    margin: 1.5rem auto 0 auto;
 }
 
 header span a {
@@ -17,7 +17,7 @@ header span a {
     justify-content: center;
     gap: 10px;
     color: #24242A;
-    margin: 7rem 0;
+    margin: 6rem 0;
 }
 
 .container h1 {
@@ -97,6 +97,54 @@ header span a {
     background-size: 25px 25px;
 }
 
+.search-container {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    flex: 1;
+    margin-right: 10px;
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: 0;
+
+}
+
+.input-wrapper:nth-child(2){
+    border-left: 1px solid #ccc;
+
+}
+
+.search-button {
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin:0 10px;
+}
+
+.search-button:hover {
+    background-color: #e63e00;
+}
+
 .to-modality select {
     background-image: url('../images/sinal-de-seta-para-baixo-para-navegar.png');
     background-repeat: no-repeat;
@@ -131,85 +179,6 @@ header span a {
 }
 
 /* Adicione mais estilos conforme necessário */
-
-/* 
-.container-filtered .min {
-    flex: 1;
-    width: 25%;
-    margin: 0 0.25rem;
-
-    box-shadow: 1px 5px 10px 2px black;
-    background-color: #F6F3F3;
-    padding: 1rem 1rem;
-    color: #24242A;
-    min-width: 25%;
-}
-
-.container-filtered .search-job,
-.container-filtered .to-modality select,
-.container-filtered .to-from select,
-.container-filtered .btn-job
-{
-    width: 100%;
-}
-
- .container-filtered .search-job {
-    background-color: #F6F3F3;
-
-    border-radius: 10px;
-    color: #24242A;
-
-    background-color: red;
-}
-
-.container-filtered .search-job input {
-    background-color: #F6F3F3;
-
-    
-    padding: 1rem 1rem;
-    color: #24242A;
-    min-width: 100%;
-}
-
-.container-filtered .search-job input::placeholder,
-.container-filtered .search-job input:focus {
-    color: #24242A;
-    outline: 0;
-}
-
-.container-filtered .to-modality select {
-    background-color: #F6F3F3;
-    
-    padding: 1rem 1rem;
-    color: #24242A;
-    min-width: 100%;
-
-}
-
-.container-filtered .to-from select {
-    background-color: #F6F3F3;
-    
-    padding: 1rem 1rem;
-    color: #24242A;
-    min-width: 100%;
-
-}
-
-.container-filtered .search-job {
-    min-width: 25%;
-    cursor: pointer;
-}
-
-.container-filtered .search-job button {
-    background-color: #F05542;
-    
-    padding: 1rem 1rem;
-    color: #FFFFFF;
-    min-width: 100%;
-}  */
-
-
-
 
 
 

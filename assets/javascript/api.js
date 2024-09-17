@@ -1,30 +1,19 @@
+function search() {
+  const job = document.getElementById('job').value;
+  const location = document.getElementById('location').value;
+  alert(`Pesquisando por: ${job}, Localização: ${location}`);
+}
+
+
 async function getVagas() {
-  // try {
-  //   const response = await fetch('https://api.github.com/repos/frontendbr/vagas/issues');
-
-  //   if (!response.ok) {
-  //     throw new Error(`Erro na requisição: ${response.statusText}`);
-  //   }
-
-  //   const data = await response.json();
-
-  //   renderizarVagas(data);
-
-  //   console.log(data)
-
-  // } catch (error) {
-  //   console.error(`Erro: ${error.message}`);
-  // }
 
   try {
     fetch("https://api.github.com/repos/frontendbr/vagas/issues")
       .then(response => response.json())
       .then(
         data => {
-
           renderizarVagas(data)
           console.log(data)
-
         }
       )
   } catch (error) {

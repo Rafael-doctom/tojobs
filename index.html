@@ -25,7 +25,9 @@
 <body>
 
     <header>
-        <span><a href="/">tojobs</a></span>
+        <span>
+            <a href="/" title="tojobs">tojobs</a>
+        </span>
     </header>
 
     <div class="container">
@@ -38,32 +40,14 @@
             estágio ❤️
         </p>
 
-        <div class="container-filtered">
-
-            <div class="search-job min">
-                <input type="text" placeholder="Senior Frontend">
+        <div class="search-container">
+            <div class="input-wrapper">
+                <input type="text" id="job" placeholder="Desenvolvedor">
             </div>
-
-            <div class="to-modality min">
-                <select name="" id="">
-                    <option value="Freelancer">Freelancer</option>
-                    <option value="PJ">PJ</option>
-                    <option value="CLT">CLT</option>
-                </select>
+            <div class="input-wrapper">
+                <input type="text" id="location" placeholder="Localização">
             </div>
-
-            <div class="to-from min">
-                <select name="" id="">
-                    <option value="Remoto">Remoto</option>
-                    <option value="Presencial">Presencial</option>
-                    <option value="Hibrído">Hibrído</option>
-                </select>
-            </div>
-
-            <div class="btn-job">
-                <button>Pesquisar</button>
-            </div>
-
+            <button class="search-button" onclick="search()">Pesquisar</button>
         </div>
 
     </div>
@@ -72,8 +56,38 @@
         <h1>Empregos em <font class="txt-color">destaque</font>
         </h1>
         <div class="vagasContainer" id="vagas-container">
+            <div class="cards">
 
-          
+                <div class="card">
+
+                    <span class="modalidade">
+                        REMOTO
+                    </span>
+
+                    <div class="format">
+                        <img src="assets/images/programmer.png" alt="">
+                        <div class="describe">
+                            <h2 class="title">
+                                Desenvolvedor Frontend Jr
+                            </h2>
+
+                            <div class="details">
+                                <span class="date-job">🕒 09/10/2000</span>
+                                <span class="date-job">📍 Tatuí, SP</span>
+                            </div>
+
+                            <div class="click">
+                                <a href="" class="click-button">VER DETALHES DA VAGA</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
         </div>
     </div>
 
@@ -118,9 +132,9 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>  -->
 
-   <script src="assets/javascript/api.js"></script>
+    <script src="assets/javascript/api.js"></script>
 
 </body>
 
