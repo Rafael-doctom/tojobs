@@ -74,46 +74,6 @@ footer span a {
     background-color: #e23809ec;
 }
 
-/* container-filtered */
-.container-filtered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1rem 0;
-    color: #24242A;
-}
-
-.min {
-    min-width: 250px;
-}
-
-.search-job input,
-.to-modality select,
-.to-from select {
-    width: 100%;
-    padding: 0px 10px 0px 40px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 10px;
-    outline: 0;
-    color: #24242A;
-    height: 40px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.267);
-}
-
-.search-job input {
-    background-image: url('../images/lupa.png');
-    background-repeat: no-repeat;
-    background-position: left 8px center;
-    background-size: 25px 25px;
-}
-
 .search-container {
     display: flex;
     background-color: #fff;
@@ -162,40 +122,10 @@ footer span a {
     background-color: #e63e00;
 }
 
-.to-modality select {
-    background-image: url('../images/sinal-de-seta-para-baixo-para-navegar.png');
-    background-repeat: no-repeat;
-    background-position: left 8px center;
-    background-size: 25px 25px;
-}
-
-.to-from select {
-    background-image: url('../images/filtro.png');
-    background-repeat: no-repeat;
-    background-position: left 8px center;
-    background-size: 25px 25px;
-}
 
 
-.search-job input::placeholder {
-    color: #24242A;
-}
-
-.btn-job button {
-    background-color: #F05542;
-    color: white;
-    /* padding: 10px 20px; */
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    min-width: 250px;
-    height: 40px;
-    padding: 0px 10px 0px 10px;
 
 
-}
-
-/* Adicione mais estilos conforme necessário */
 
 
 
