@@ -1,4 +1,3 @@
-/* reset.css */
 html,
 body,
 div,
@@ -85,7 +84,6 @@ video {
     vertical-align: baseline;
 }
 
-/* Adicione estilos globais ou personalizados abaixo deste comentário */
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
