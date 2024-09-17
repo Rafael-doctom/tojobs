@@ -10,6 +10,23 @@ header span a {
     font-size: 36px;
 }
 
+footer {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+footer span {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+footer span a {
+    color: #0d6efd;
+}
+
 .container {
     text-align: center;
     display: flex;
@@ -124,7 +141,7 @@ header span a {
 
 }
 
-.input-wrapper:nth-child(2){
+.input-wrapper:nth-child(2) {
     border-left: 1px solid #ccc;
 
 }
@@ -138,7 +155,7 @@ header span a {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin:0 10px;
+    margin: 0 10px;
 }
 
 .search-button:hover {
